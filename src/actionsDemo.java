@@ -22,11 +22,11 @@ public class actionsDemo {
 		driver.manage().window().maximize();
 		driver.get("https://www.barrabes.com/");
 		
-		// Interactuar con las cookies
+		// Reject the cookies
 		driver.findElement(By.xpath( "//a[contains(text(),'Configurar Cookies')]")).click();
 		driver.findElement(By.cssSelector("div.modal-btn-group a.btn.btn-primary")).click();
 		
-		// Definir los WebElements
+		// Define WebElements
 		Actions a = new Actions(driver);
 		WebElement ropaHombre=driver.findElement(By.xpath("//button[contains(text(),'Ropa Hombre')]"));
 		WebElement ropaMujer=driver.findElement(By.xpath("//button[contains(text(),'Ropa Mujer')]"));
@@ -38,7 +38,7 @@ public class actionsDemo {
 		
 		Thread.sleep(1000);
 		
-		// Mover el cursor hacia todos los elementos de la Web 
+		// Move the mouse towards all WebElements 
 		a.moveToElement(ropaHombre).build().perform();
 		Thread.sleep(1000);
 		a.moveToElement(ropaMujer).build().perform();
@@ -54,14 +54,14 @@ public class actionsDemo {
 		a.moveToElement(marcas).build().perform();
 		
 		/*
-		// Hacer clicken en la barra busqueda
+		// Click on search bar
 		driver.findElement(By.id("cSearch")).click();
 		
-		// Esperar a que el nuevo componente aparezca
+		// Wait until the new component appears
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		WebElement newSearchField = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("div[data-dfd-view='Search'] input")));
 		
-		// Escribir en el nuevo campo de búsqueda
+		// Write on the new search field
 		newSearchField.sendKeys("SACOS DE DORMIR");
 		*/
 		

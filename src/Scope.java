@@ -19,7 +19,7 @@ public class Scope {
 		driver.manage().window().maximize();
 		driver.get("https://www.barrabes.com");
 		
-		// Rechazar las cookies
+		// Reject the cookies
 		driver.findElement(By.xpath( "//a[contains(text(),'Configurar Cookies')]")).click();
 		driver.findElement(By.cssSelector("div.modal-btn-group a.btn.btn-primary")).click();
 		

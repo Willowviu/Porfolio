@@ -18,24 +18,24 @@ public class WindowHandles {
 		driver.manage().window().maximize();
 		driver.get("https://www.barrabes.com");
 		
-		// Interactuar con las cookies
+		// Reject the cookies
 		driver.findElement(By.xpath( "//a[contains(text(),'Configurar Cookies')]")).click();
 		driver.findElement(By.cssSelector("div.modal-btn-group a.btn.btn-primary")).click();
 		
-		// Dejo el cursor encima de ropa Hombre
+		// Leave the mouse over "Men clothes"
 		Actions a = new Actions(driver);
 		WebElement ropaHombre=driver.findElement(By.xpath("//button[contains(text(),'Ropa Hombre')]"));
 		a.moveToElement(ropaHombre).build().perform();
 		
-		// WebDriverWait para esperar a que el elemento "Monos" se pueda elegir
+		// WebDriverWait to wait until the WebElement "Monos" can be eligible
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.attributeContains(By.cssSelector("li.nav-link.has_children"), "class", "megamenu-open"));
 
-        // Localizar el elemento "Monos" y hacer click
+        // Localize el WebElement "Monos" and click on it
         WebElement monosOption = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[contains(text(),'Monos')]")));
         monosOption.click();
         
-        // Una vez hecho click en Monos, scroll hacia abajo
+        // Once click on "Monos", scroll down
         a.scrollByAmount(0, 500).build().perform();
 		
 		

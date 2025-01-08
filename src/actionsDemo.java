@@ -78,11 +78,11 @@ public class actionsDemo {
 		
 		
 		
-		// Scroll hacia abajo en la web
+		// Scroll down on the WebPage
 		// JavascriptExecutor js = (JavascriptExecutor)driver;
 		// js.executeScript("window.scrollBy(0,5000)");
 		
-		// Desde la consola tambien podemos usar:
+		// From the console we can use as well:
 		// document.querySelector(".tableFixHead").scrollTop-Down-Left=5000
 		
 	}

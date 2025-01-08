@@ -24,15 +24,15 @@ public class WindowHandles2 {
 		driver.manage().window().maximize();
 		driver.get("https://www.barrabes.com");
 				
-		// Rechazar las cookies
+		// Refuse cookies
 		driver.findElement(By.xpath( "//a[contains(text(),'Configurar Cookies')]")).click();
 		driver.findElement(By.cssSelector("div.modal-btn-group a.btn.btn-primary")).click();
 		
-		// Click en 'Hola, identificate'  
+		// Click on "Hola, identificate"  
 		driver.findElement(By.xpath("//span[contains(text(),'Hola, identifícate')]")).click();
 		WebElement loginButton = driver.findElement(By.cssSelector("a.link.loginButton"));	
 				
-		// Simula Ctrl+Click
+		// Simulates Ctrl+Click
 		Actions actions = new Actions(driver);
 		actions.keyDown(Keys.CONTROL).click(loginButton).keyUp(Keys.CONTROL).build().perform();
 		

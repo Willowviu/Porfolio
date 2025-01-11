@@ -45,12 +45,12 @@ public class Scope {
 			String clickOnLinkTab = Keys.chord(Keys.CONTROL,Keys.ENTER);
 			
 			columnDriver.findElements(By.tagName("a")).get(i).sendKeys(clickOnLinkTab);
-			Thread.sleep(5000L);
+			Thread.sleep(2000L);
 		}	
 			Set<String> abc = driver.getWindowHandles();
 			Iterator<String> it = abc.iterator();		
 			
-			while(it.hasNext())
+		while(it.hasNext())
 			{
 				
 			driver.switchTo().window(it.next()); 	

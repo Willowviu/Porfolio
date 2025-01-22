@@ -46,9 +46,23 @@ Welcome to my automation project! Below is a brief overview of the core function
 
 ---
 
+---
+
+## 🔒 **SSLCheck.java**
+**Objective**: By-pass the Security Certication SSL and go to the actual WebPage.  
+✨ **Highlights**:  
+- Using differents Browsers, by-pass Security Certications and land on the desired WebPage.
+
+---
+
 ## 🌟 **Contribute & Support**
 Feel free to explore the code and adapt it for your own automation needs!  
 If you find this helpful, don’t forget to **⭐ star the repository** and share it with others. 😊
 
----
+
+
+
+
+
+
 

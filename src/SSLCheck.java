@@ -18,7 +18,7 @@ public class SSLCheck {
 		//EdgeOptions options3 = new EdgeOptions();
 		//options3.setAcceptInsecureCerts(true);
 		//SafariOptions options4 = new SafariOptions();
-		
+		//options4.setAcceptInsecureCerts(true);
 		
 		WebDriver driver = new ChromeDriver(options);
 		driver.manage().deleteAllCookies();

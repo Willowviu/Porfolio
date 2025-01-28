@@ -60,7 +60,7 @@ Welcome to my automation project! Below is a brief overview of the core function
 
 ---
 
-## 🔒 **BrokenLinks.java**
+## 🔗❌ **BrokenLinks.java**
 **Objective**: Iterate over all links in the page to validate broken links mechanism.  
 ✨ **Highlights**:  
 - Importance of Soft Assertions in Selenium WebDriver.

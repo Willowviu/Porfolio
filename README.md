@@ -55,6 +55,11 @@ Welcome to my automation project! Below is a brief overview of the core function
 
 ---
 
+## 📸 **Screeshot.java**
+**Objective**: Take a screenshot of the actual WebPage.  
+
+---
+
 ## 🌟 **Contribute & Support**
 Feel free to explore the code and adapt it for your own automation needs!  
 If you find this helpful, don’t forget to **⭐ star the repository** and share it with others. 😊

@@ -23,5 +23,6 @@
 	<classpathentry kind="lib" path="C:/Users/ptdem/Downloads/commons-io-2.18.0-bin/commons-io-2.18.0/commons-io-2.18.0-sources.jar"/>
 	<classpathentry kind="lib" path="C:/Users/ptdem/Downloads/commons-io-2.18.0-bin/commons-io-2.18.0/commons-io-2.18.0-tests.jar"/>
 	<classpathentry kind="lib" path="C:/Users/ptdem/Downloads/commons-io-2.18.0-bin/commons-io-2.18.0/commons-io-2.18.0-test-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ptdem/Downloads/testng-7.10.2.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

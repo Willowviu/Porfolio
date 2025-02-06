@@ -67,6 +67,14 @@ Welcome to my automation project! Below is a brief overview of the core function
 
 ---
 
+## 📋✔️ **SortedList.java**
+**Objective**: Automating Pagination Scenarios to search the data choosen.
+✨ **Highlights**:  
+- We can perform various aggregate operations on the data returned from collections classes by drastically reduce the complexity of the code. 
+- Importance of using streams(). and Lambda Expressions (->)
+  
+---
+
 ## 🌟 **Contribute & Support**
 Feel free to explore the code and adapt it for your own automation needs!  
 If you find this helpful, don’t forget to **⭐ star the repository** and share it with others. 😊

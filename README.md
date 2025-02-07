@@ -75,6 +75,13 @@ Welcome to my automation project! Below is a brief overview of the core function
   
 ---
 
+## 📋✔️ **FilterWebTable.java**
+**Objective**: Filter the Web table using Selenium java streams            
+✨ **Highlights**:  
+- The importance of using .filter() with Lambda Expresions (->) .contains() .collect() to drastically reduce the complexity of using loops
+- Using assertions to test our lists. 
+
+---
 ## 🌟 **Contribute & Support**
 Feel free to explore the code and adapt it for your own automation needs!  
 If you find this helpful, don’t forget to **⭐ star the repository** and share it with others. 😊

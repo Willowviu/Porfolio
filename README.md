@@ -46,8 +46,6 @@ Welcome to my automation project! Below is a brief overview of the core function
 
 ---
 
----
-
 ## 🔒 **SSLCheck.java**
 **Objective**: By-pass the Security Certication SSL and go to the actual WebPage.  
 ✨ **Highlights**:  
@@ -75,7 +73,7 @@ Welcome to my automation project! Below is a brief overview of the core function
   
 ---
 
-## 📋✔️ **FilterWebTable.java**
+## 🛠️📋 **FilterWebTable.java**
 **Objective**: Filter the Web table using Selenium java streams            
 ✨ **Highlights**:  
 - The importance of using .filter() with Lambda Expresions (->) .contains() .collect() to drastically reduce the complexity of using loops

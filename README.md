@@ -80,6 +80,14 @@ Welcome to my automation project! Below is a brief overview of the core function
 - Using assertions to test our lists. 
 
 ---
+
+## 🛠️📋 **NewWindow.java**
+**Objective**: Invoking multiple Windows/Tabs from Selenium, grabing some reference/text in the child Window and paste it into the parent one.
+✨ **Highlights**:  
+- The importance of using hadles.iterator() & .switchTo().window() 
+
+---
+
 ## 🌟 **Contribute & Support**
 Feel free to explore the code and adapt it for your own automation needs!  
 If you find this helpful, don’t forget to **⭐ star the repository** and share it with others. 😊

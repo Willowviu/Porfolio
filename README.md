@@ -82,9 +82,12 @@ Welcome to my automation project! Below is a brief overview of the core function
 ---
 
 ## 🛠️📋📸 **NewWindow.java**
-**Objective**: Invoking multiple Windows/Tabs from Selenium, grabing some reference/text in the child Window and paste it into the parent one, and take a partial WebElement partial Screenshot with Selenium
+**Objective**: Invoking multiple Windows/Tabs from Selenium, grabing some reference/text in the child Window and paste it into the parent one.
+- Take a partial WebElement partial Screenshot with Selenium.
+- Get the Height & Width of the WebElement for UX validation.
 ✨ **Highlights**:  
-- The importance of using hadles.iterator() & .switchTo().window() 
+- The importance of using hadles.iterator() & .switchTo().window()
+-  The importance of using FileUtils.jar
 
 ---
 

@@ -19,7 +19,8 @@ public class NewWindow {
 		// TODO Auto-generated method stub
 
 		WebDriver driver = new FirefoxDriver();
-		driver.get("https://rahulshettyacademy.com/angularpractice/");	
+		driver.get("https://rahulshettyacademy.com/angularpractice/");
+		//Switching Window
 		driver.switchTo().newWindow(WindowType.TAB);
 		
 		Set<String> handles = driver.getWindowHandles();
@@ -33,8 +34,15 @@ public class NewWindow {
 		driver.switchTo().window(parentWindowId);
 		WebElement name = driver.findElement(By.cssSelector("[name='name']"));
 		name.sendKeys(courseName);
+		//Screenshoot
 		File file = name.getScreenshotAs(OutputType.FILE);
 		
 		FileUtils.copyFile(file, new File("logo.png"));
+		
+		//Get Height & Width
+		System.out.println(name.getRect().getDimension().getHeight());
+		System.out.println(name.getRect().getDimension().getWidth());
+		
+		
 }
 }
